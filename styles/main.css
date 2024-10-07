@@ -36,7 +36,25 @@
 }
 
 /* VRSTVA PRO VAŠE STYLY */
-@layer design {
-   
+@layer design {    
+    .page__header {
+        padding: calc(1em + 5%);
+        background-image: url(../images/header-2560w.webp);
+        background-size: cover;
+        background-position:top center;
+        color: var(--light);
+    }
+    .page__intro {
+        max-width: 45em;
+    }
+    .img-responsive {
+        display: block;
+        width: 100%;
+    }
+    .page__content{
+        max-width: 40em;
+        margin: 0 auto;
+    }
+
 
 }
